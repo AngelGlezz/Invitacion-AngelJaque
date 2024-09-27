@@ -44,10 +44,10 @@ body {
     position: absolute;
     left: 0rem;
     right: 0;
-    bottom: 2rem;
+    bottom: 0rem;
     margin: auto;
     font-size: 10rem;
-    color: var(--secundario);
+    color: var(--gris);
     text-align: center;
     font-family: "Playfair Display", sans-serif;
 }
@@ -70,7 +70,6 @@ body {
         top: 0rem;
         bottom: 1rem;
         left: 0;
-        color: var(--oscuro);
     }
 
     .titulo span {
