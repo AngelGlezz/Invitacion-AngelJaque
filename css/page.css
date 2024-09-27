@@ -37,6 +37,19 @@ body {
 @media (max-width: 615px) {
     .cover {
         background-image: url(../images/cover_m.png);
+        min-height: 110rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .cover {
+        min-height: 100vh;
+    }
+}
+
+@media (max-height: 800px) {
+    .cover {
+        min-height: 78rem;
     }
 }
 
@@ -141,11 +154,35 @@ body {
     color: var(--blanco);
 }
 
+.phrase {
+    width: 60rem;
+    font-size: 3rem;
+    color: var(--primario);
+    text-align: center;
+    position: relative;
+    margin-top: 9rem;
+    font-weight: 700;
+}
+
+.phrase span {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-weight: 400;
+}
+
+@media (max-width: 620px) {
+    .phrase {
+        width: 34rem;
+    }
+}
+
 .container-clock {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20rem 3rem;
+    padding: 10rem 3rem 15rem;
 }
 
 .item-clock {
@@ -423,4 +460,5 @@ body {
 
 footer p {
     color: var(--gris);
+    text-align: center;
 }
