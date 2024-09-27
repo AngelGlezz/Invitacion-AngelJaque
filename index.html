@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel & Jaque</title>
+    <link rel="shortcut icon" type="image/png" href="images/anillo-de-bodas.png"/>
+    <link rel="preload" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preload" href="./css/page.css" as="style">
+    <link rel="stylesheet" href="./css/page.css?v=1.0.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/5f9b9328fe.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/page.js?v=1.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <meta name="title" content="Angel & Jaque - Nuestra Boda">
+	<meta name="description" content="Angel & Jaque - Nuestra Boda">
+	<meta name="og:title" content="Angel & Jaque - Nuestra Boda">
+	<meta name="og:description" content="Angel & Jaque - Nuestra Boda">
+	<meta name="og:image" content="https://angelglezz.github.io/angel-jaque/images/foto.png">
+	<meta name="og:url" content="https://angelglezz.github.io/angel-jaque/">
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:image:src" content="https://angelglezz.github.io/angel-jaque/images/foto.png/">
+	<meta name="twitter:description" content="Angel & Jaque - Nuestra Boda" />
+	<meta name="twitter:url" content="https://angelglezz.github.io/angel-jaque/" />
+	<meta name="twitter:domain" content="https://angelglezz.github.io/angel-jaque/" />
+</head>
+<body>
+    <header class="cover">
+        <h1 class="titulo">Angel & Jaque <br><span>Noviembre 30, 2024</span></h1>
+    </header>
+    <div class="nav-bg">
+        <div class="main"></div>
+        <nav class="navegacion-principal contenedor">
+            <a class="main-item" href="#where">Dónde</a>
+            <a class="main-item" href="#dresscode">Dress Code</a>
+            <a class="main-item" href="#schedule">Itinerario</a>
+            <a class="main-item" href="#gift">Mesa de Regalos</a>
+        </nav>
+    </div>
+    <section>
+        <div class="container-clock contenedor">
+            <div class="item-clock">
+                <div class="time-clock" id="day"></div>
+                <div class="txt-clock">Días</div>
+            </div>
+            <div class="item-clock">
+                <div class="time-clock" id="hour"></div>
+                <div class="txt-clock">Horas</div>
+            </div>
+            <div class="item-clock">
+                <div class="time-clock" id="minute"></div>
+                <div class="txt-clock">Mins</div>
+            </div>
+            <div class="item-clock">
+                <div class="time-clock" id="second"></div>
+                <div class="txt-clock">Segs</div>
+            </div>
+        </div>
+    </section>
+    <section id="where">
+        <div class="container-place">
+            <div class="item-place">
+                <div class="bg-place" id="ceremony"></div>
+                <div class="info-place">
+                    <h2>Ceremonia</h2>
+                    <p>14:30 Hrs</p>
+                    <p>Parroquia de la Purísica Cocepción</p>
+                    <p>Trabajo #15 Bis, La Fama, Tlalpan, CDMX</p>
+                    <a href="https://maps.app.goo.gl/YzdBDbvGdFuxnPsC7" target="_blank"><i class="fa-regular fa-map"></i>Ver Mapa</a>
+                    <a href="https://waze.com/ul/h9g3mxps9s"><i class="fa-brands fa-waze"></i>Llegar con Waze</a>
+                    <p style="margin-bottom: 20px;"><strong>Importante: Dejar su auto en el estacionamiento de <br> "La Comer"</strong></p>
+                </div>
+            </div>
+            <div class="item-place">
+                <div class="bg-place" id="reception"></div>
+                <div class="info-place">
+                    <h2>Recepción</h2>
+                    <p>17:00 hrs - 00:00 Hrs</p>
+                    <p>Jardín Escondido</p>
+                    <p>Callejón de Esfuerzo #4, Sta. Úrsula Coapa, Coyoacán, CDMX</p>
+                    <a href="https://maps.app.goo.gl/2728b4qQhcbRsP1Z7" target="_blank"><i class="fa-regular fa-map"></i>Ver Mapa</a>
+                    <a href="https://waze.com/ul/h9g3mzgmxp"><i class="fa-brands fa-waze"></i>Llegar con Waze</a>
+                    <p><strong>Importante: Seguir croquis y después waze o maps</strong></p>
+                    <a href="./images/croquis.jpeg" data-fancybox data-caption="Croquis">Croquis</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="dresscode">
+        <h2 class="title">Código de Vestimenta <span>Formal-Jardín <br>Formal-Casual</span></h2>
+        <div class="container-dresscode">
+            <div class="item-dresscode">
+                <a href="https://www.pinterest.com/jaquelinehernandez75/vestimenta-hombres/" data-pin-do="embedBoard"></a>
+            </div>
+            <div class="item-dresscode">
+                <a href="https://www.pinterest.com/jaquelinehernandez75/vestimenta-damas/" data-pin-do="embedBoard"></a>
+            </div>
+        </div>
+        <div class="txt">Importante <br><br>Todos: Colores lisos; No estampados ni bordados.<br> Chicas: Les recomendamos evitar los tacones finos, ya que el jardín tiene pasto y no queremos que se hundan en él. ¡Mejor elijan calzado cómodo para disfrutar al máximo! </div>
+    </section>
+    <section id="schedule">
+        <div class="hourglass"><img src="./images/reloj.gif" /></div>
+        <h2 class="title">Itinerario</h2>
+        <div class="schedule-container contenedor">
+            <div class="schedule-item-container">
+                <div class="schedule-item-title">Ceremonia Religiosa</div>
+                <div class="schedule-item-hour">14:30 hrs</div>
+                <div class="schedule-item-desc">Comparte con nosotros este momento</div>
+                <div class="heart"></div>
+            </div>
+            <div class="schedule-item-container">
+                <div class="schedule-item-title">Recepción</div>
+                <div class="schedule-item-hour">17:00 hrs</div>
+                <div class="schedule-item-desc">Comparte la mesa con nosotros y... <br> !Que empiece este ca....ro!</div>
+                <div class="heart"></div>
+            </div>
+            <div class="schedule-item-container">
+                <div class="schedule-item-title">After Party</div>
+                <div class="schedule-item-hour">1:00 hrs</div>
+                <div class="schedule-item-desc">Para quienes aún tengan pila <br>Iztaccihuatl #52bis, Tlalpan, CDMX</div>
+                <a href="https://maps.app.goo.gl/zb6A88D4fTBPPSUs8" target="_blank"><i class="fa-regular fa-map"></i>Ver Mapa</a>
+                <a href="https://waze.com/ul/h9g3mxpg0x"><i class="fa-brands fa-waze"></i>Llegar con Waze</a>
+                <div class="heart"></div>
+            </div>
+        </div>
+    </section>
+    <section id="gift">
+        <div class="box"></div>
+        <h2 class="title">Mesa de Regalos</h2>
+        <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51518216" target="_blank">
+            <div class="gift-button">
+                    <div class="code">Código: <br>51518216</div>
+            </div>
+        </a>
+    </section>
+    <section class="photo"></section>
+    <footer>
+        <p>Todos los derechos reservados. Angel & Jaque 2024.</p>
+    </footer>
+    <script async defer src="./js/pinit.js"></script>
+</body>
+</html>
