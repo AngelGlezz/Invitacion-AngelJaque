@@ -43,13 +43,7 @@ body {
 
 @media (max-width: 440px) {
     .cover {
-        min-height: 100vh;
-    }
-}
-
-@media (max-height: 800px) {
-    .cover {
-        min-height: 78rem;
+        min-height: 80rem;
     }
 }
 
@@ -462,4 +456,3 @@ footer p {
     color: var(--gris);
     text-align: center;
 }
-
