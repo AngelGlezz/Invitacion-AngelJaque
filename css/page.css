@@ -37,13 +37,6 @@ body {
 @media (max-width: 615px) {
     .cover {
         background-image: url(../images/cover_m.png);
-        min-height: 110rem;
-    }
-}
-
-@media (max-width: 440px) {
-    .cover {
-        min-height: 80rem;
     }
 }
 
