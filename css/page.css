@@ -42,7 +42,7 @@ body {
 
 @media (max-width: 450px) {
     .cover {
-        min-height: 800px;
+        height: 130vh;
     }
 }
 
