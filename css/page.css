@@ -34,7 +34,7 @@ body {
 
 @media (max-width: 450px) {
     .cover {
-        height: 130vh;
+        height: 800px;
     }
 }
 
@@ -385,7 +385,7 @@ body {
     background-color: var(--secundario);
     border-radius: 10px;
     background-image: url(../images/liverpool.png);
-    background-position: top 5px center;
+    background-position: top 15px center;
     background-repeat: no-repeat;
     background-size: 85%;
     position: relative;
@@ -409,7 +409,7 @@ body {
     left: 0px;
     right: 0px;
     margin: auto;
-    font-size: 2px;
+    font-size: 20px;
     text-align: center;
 }
 
