@@ -5,21 +5,13 @@
     --secundario: #eae0d6;
     --gris: #818181;
 }
-html {
-    font-size: 62.5%;
-    box-sizing: border-box; /* hack para boxmodel */
-    min-width: 37rem;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-}
+
 body {
-    font-size: 16px; /* 1rem = 10px */
     font-family: "Urbanist", sans-serif;
     margin: 0px;
 }
 .contenedor {
-    max-width: 120rem;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -48,33 +40,33 @@ body {
 
 .titulo {
     position: absolute;
-    left: 0rem;
+    left: 0;
     right: 0;
-    bottom: 0rem;
+    bottom: 0;
     margin: auto;
-    font-size: 10rem;
+    font-size: 100px;
     color: var(--gris);
     text-align: center;
     font-family: "Playfair Display", sans-serif;
 }
 
 .titulo span {
-    font-size: 3rem;
+    font-size: 30px;
 }
 
 @media (max-width: 870px) {
     .titulo {
-        font-size: 7rem;
+        font-size: 70px;
     }
 }
 
 @media (max-width: 668px) {
     .titulo {
-        font-size: 5rem;
-        width: 33.6rem;
-        height: 30rem;
-        top: 0rem;
-        bottom: 1rem;
+        font-size: 50px;
+        width: 336px;
+        height: 300px;
+        top: 0px;
+        bottom: 10px;
         left: 0;
     }
 
@@ -91,20 +83,20 @@ body {
     position: sticky;
     top: 0;
     width: 100%;
-    height: 4.4rem;
+    height: 44px;
     z-index: 9999;
 }
 
 .main {
     background-image: url(../images/menu.svg);
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 35px;
+    height: 35px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    right: 2rem;
-    margin-top: 0.6rem;
+    right: 20px;
+    margin-top: 6px;
     cursor: pointer;
 }
 
@@ -137,9 +129,9 @@ body {
     text-align: center;
     color: var(--blanco);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 700;
-    padding: 1rem;
+    padding: 10px;
 }
 
 .navegacion-principal a:hover {
@@ -148,17 +140,17 @@ body {
 }
 
 .phrase {
-    width: 60rem;
-    font-size: 3rem;
+    width: 600px;
+    font-size: 30px;
     color: var(--primario);
     text-align: center;
     position: relative;
-    margin-top: 9rem;
+    margin-top: 90px;
     font-weight: 700;
 }
 
 .phrase span {
-    font-size: 1.5rem;
+    font-size: 15px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -167,7 +159,7 @@ body {
 
 @media (max-width: 620px) {
     .phrase {
-        width: 34rem;
+        width: 340px;
     }
 }
 
@@ -175,32 +167,33 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10rem 3rem 15rem;
+    padding: 100px 30px 150px;
 }
 
 .item-clock {
     display: block;
     text-align: center;
     color: var(--primario);
-    font-size: 2.5rem;
-    padding: 1rem;
+    font-size: 250px;
+    padding: 10px;
 }
 
 .time-clock {
-    font-size: 4rem;
-    margin-bottom: 1rem;
+    font-size: 40px;
+    margin-bottom: 10px;
     font-weight: 600;
     color: var(--primario);
 }
 
 .txt-clock {
+    font-size: 20px;
     color: var(--primario);
 }
 
 .container-place, .container-dresscode {
     display: flex;
     flex-direction: column;
-    max-width: 120rem;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -215,13 +208,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40rem;
+    height: 400px;
 }
 
 .item-place {
     display: block;
     width: 95%;
-    margin: 1rem auto;
+    margin: 10px auto;
 }
 
 @media (min-width: 768px) {
@@ -241,8 +234,8 @@ body {
 
 .info-place {
     background-color: var(--secundario);
-    padding: 5rem 1rem;
-    min-height: 49.3rem;
+    padding: 50px 10px;
+    min-height: 493px;
 }
 
 .info-place h2 {
@@ -253,50 +246,50 @@ body {
 
 .info-place p {
     text-align: center;
-    font-size: 2rem;
+    font-size: 20px;
     color: var(--primario);
 }
 
 .info-place a {
     color: var(--primario);
     text-decoration: none;
-    font-size: 2rem;
-    width: 20rem;
+    font-size: 20px;
+    width: 200px;
     border: 1px solid var(--primario);
     border-radius: 5px;
-    margin: 2rem auto;
-    padding: 0.5rem;
+    margin: 20px auto;
+    padding: 5px;
     display: block;
     text-align: center;
 }
 
 .info-place a i {
-    margin-right: 1rem;
+    margin-right: 10px;
 }
 
 .title {
-    margin: 20rem auto 15rem;
+    margin: 200px auto 150px;
     color: var(--primario);
     text-align: center;
-    font-size: 5rem;
+    font-size: 50px;
 }
 
 .title span {
     display: block;
-    font-size: 3rem;
+    font-size: 30px;
 }
 
 .txt {
     color: var(--primario);
     text-align: center;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .item-dresscode {
     width: 95%;
-    height: 45rem;
-    margin: 1rem auto;
+    height: 450px;
+    margin: 10px auto;
 }
 
 @media (min-width: 768px) {
@@ -318,25 +311,25 @@ body {
 
 #schedule .title {
     display: block;
-    margin-top: 0rem;
+    margin-top: 0px;
 }
 
 .schedule-item-title {
-    font-size: 3rem;
+    font-size: 30px;
     color: var(--gris);
     text-align: center;
     font-weight: 700;
 }
 
 .schedule-item-hour {
-    font-size: 2rem;
+    font-size: 20px;
     color: var(--primario);
     font-weight: 700;
     text-align: center;
 }
 
 .schedule-item-desc {
-    font-size: 1.6rem;
+    font-size: 16px;
     color: var(--gris);
     text-align: center;
 }
@@ -344,18 +337,18 @@ body {
 .schedule-item-container a {
     color: var(--primario);
     text-decoration: none;
-    font-size: 2rem;
-    width: 20rem;
+    font-size: 20px;
+    width: 200px;
     border: 1px solid var(--primario);
     border-radius: 5px;
-    margin: 2rem auto;
-    padding: 0.5rem;
+    margin: 20px auto;
+    padding: 5px;
     display: block;
     text-align: center;
 }
 
 .schedule-item-container a i {
-    margin-right: 1rem;
+    margin-right: 10px;
 }
 
 .heart {
@@ -363,15 +356,15 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 300%;
-    width: 5rem;
-    height: 5rem;
-    margin: 2rem auto;
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
 }
 
 .box {
-    width: 10rem;
-    height: 10rem;
-    margin: 15rem auto 2rem;
+    width: 100px;
+    height: 100px;
+    margin: 150px auto 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 130%;
@@ -383,46 +376,46 @@ body {
 }
 
 .gift-button {
-    width: 28rem;
-    height: 14rem;
-    margin: 5rem auto;
+    width: 280px;
+    height: 140px;
+    margin: 50px auto;
     -webkit-box-shadow: -10px 0px 25px 5px rgba(129,129,129,0.5);
     -moz-box-shadow: -10px 0px 25px 5px rgba(129,129,129,0.5);
     box-shadow: -10px 0px 25px 5px rgba(129,129,129,0.5);
     background-color: var(--secundario);
-    border-radius: 1rem;
+    border-radius: 10px;
     background-image: url(../images/liverpool.png);
-    background-position: top 1.5rem center;
+    background-position: top 5px center;
     background-repeat: no-repeat;
     background-size: 85%;
     position: relative;
-    padding-top: 1rem;
+    padding-top: 10px;
 }
 
 #gift a {
     display: block;
-    width: 28rem;
-    height: 14rem;
-    margin: 5rem auto;
+    width: 280px;
+    height: 140px;
+    margin: 50px auto;
 }
 
 .code {
-    width: 8rem;
+    width: 80px;
     color: var(--primario);
-    padding: 0.5rem;
+    padding: 5px;
     text-decoration: none!important;
     position: absolute;
-    bottom: 0.7rem;
-    left: 0rem;
-    right: 0rem;
+    bottom: 7px;
+    left: 0px;
+    right: 0px;
     margin: auto;
-    font-size: 2rem;
+    font-size: 2px;
     text-align: center;
 }
 
 .photo {
     width: 100%;
-    height: 90rem;
+    height: 900px;
     background-image: url(../images/foto.png);
     background-position: top;
     background-repeat: no-repeat;
@@ -431,23 +424,23 @@ body {
 
 @media (max-width: 1300px) {
     .photo {
-        height: 51rem;
+        height: 510px;
     }
 }
 
 @media (max-width: 768px) {
     .photo {
-        height: 30rem;
+        height: 300px;
     }
 }
 
 @media (max-width: 450px) {
     .photo {
-        height: 25rem;
+        height: 250px;
     }
 
     #gift .title {
-        margin-bottom: 5rem;
+        margin-bottom: 50px;
     }
 }
 
