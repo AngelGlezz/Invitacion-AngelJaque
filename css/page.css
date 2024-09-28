@@ -40,6 +40,12 @@ body {
     }
 }
 
+@media (max-width: 450px) {
+    .cover {
+        min-height: 800px;
+    }
+}
+
 .titulo {
     position: absolute;
     left: 0rem;
